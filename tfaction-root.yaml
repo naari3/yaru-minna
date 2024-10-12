@@ -1,0 +1,37 @@
+---
+plan_workflow_name: test # Mandatory
+label_prefixes:
+  tfmigrate: "migrate:"
+# skip_create_pr: true
+
+# drift_detection:
+#   # issue_repo_owner:
+#   # issue_repo_name:
+#   minimum_detection_interval: 5 # 5 days. By default 7 days.
+#   num_of_issues: 3 # 3 working directories are checked per workflow run. By default 1 working directory is checked.
+
+tfsec:
+  enabled: false
+trivy:
+  enabled: true
+
+scaffold_working_directory:
+  skip_adding_aqua_packages: true
+
+aqua:
+  update_checksum:
+    # Update aqua-checksums.json in `setup` action
+    enabled: true # default is false
+    skip_push: false # default is false
+    prune: true # default is false
+
+target_groups:
+  - working_directory: bootstrap
+    target: bootstrap
+    gcp_service_account: tf-exec@yaru-438413.iam.gserviceaccount.com
+    gcp_workload_identity_provider: "projects/619760245563/locations/global/workloadIdentityPools/yaru-pool/providers/yaru-prdr"
+
+  - working_directory: terraform
+    target: terraform
+    gcp_service_account: tf-exec@yaru-438413.iam.gserviceaccount.com
+    gcp_workload_identity_provider: "projects/619760245563/locations/global/workloadIdentityPools/yaru-pool/providers/yaru-prdr"
