@@ -25,8 +25,8 @@ services:
         execute in minecraft:the_nether run player HikakinGames spawn at -33 216 -17
         player MasuoGames spawn at -357 63.6 23
         player ManatoGames spawn at -3 -16 -35
+        player sakuramiko35 spawn at 31.4 164.0 115.6
         gamerule playersSleepingPercentage 25
-        player sakuramiko35 spwan at 31.4 164.0 115.6
     tty: true
     stdin_open: true
     dns:
