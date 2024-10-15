@@ -21,6 +21,7 @@ services:
         https://cdn.modrinth.com/data/TQTTVgYE/versions/K0Wj117C/fabric-carpet-1.20-1.4.112%2Bv230608.jar
         https://cdn.modrinth.com/data/l6YH9Als/versions/XGW2fviP/spark-1.10.53-fabric.jar
         https://cdn.modrinth.com/data/bfneejKo/versions/JxB3gBzc/syncmatica-1.20.1-0.3.11.jar
+        https://cdn.modrinth.com/data/VX3TgwQh/versions/gPJoJ3mr/carpet-extra-1.20-1.4.115.jar
       RCON_CMDS_STARTUP: |
         execute in minecraft:the_nether run player HikakinGames spawn at -33 216 -17
         player MasuoGames spawn at -357 63.6 23
