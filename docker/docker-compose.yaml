@@ -15,10 +15,18 @@ services:
       RCON_PASSWORD: minecraft
       VIEW_DISTANCE: "28"
       SIMULATION_DISTANCE: "28"
+      USE_AIKAR_FLAGS: "true"
       MODS: |
         https://github.com/FabricMC/fabric/releases/download/0.92.2%2B1.20.1/fabric-api-0.92.2+1.20.1.jar
         https://cdn.modrinth.com/data/TQTTVgYE/versions/K0Wj117C/fabric-carpet-1.20-1.4.112%2Bv230608.jar
         https://cdn.modrinth.com/data/l6YH9Als/versions/XGW2fviP/spark-1.10.53-fabric.jar
+        https://cdn.modrinth.com/data/bfneejKo/versions/JxB3gBzc/syncmatica-1.20.1-0.3.11.jar
+      RCON_CMDS_STARTUP: |
+        execute in minecraft:the_nether run player HikakinGames spawn at -33 216 -17
+        player MasuoGames spawn at -357 63.6 23
+        player ManatoGames spawn at -3 -16 -35
+        gamerule playersSleepingPercentage 25
+        player sakuramiko35 spwan at 31.4 164.0 115.6
     tty: true
     stdin_open: true
     dns:
