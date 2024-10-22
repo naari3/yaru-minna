@@ -32,6 +32,8 @@ services:
         player KazuChannel spawn at -21.1 74.07 38.3 facing 90.0 9.1
         player KazuChannel use continuous
         player tomo0723sw spawn at -123.5 191 197.6
+        player Dream spawn at -1415 182 3875
+        player masatogames spawn at 62 225 -228
     tty: true
     stdin_open: true
     dns:
