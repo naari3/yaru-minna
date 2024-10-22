@@ -27,7 +27,7 @@ services:
         player MasuoGames spawn at -357 63.6 23
         player ManatoGames spawn at -3 -16 -35
         player sakuramiko35 spawn at 31.4 164.0 115.6
-        gamerule playersSleepingPercentage 25
+        gamerule playersSleepingPercentage 10
         carpet accurateBlockPlacement true
         player KazuChannel spawn at -21.1 74.07 38.3 facing 90.0 9.1
         player KazuChannel use continuous
