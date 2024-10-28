@@ -23,10 +23,10 @@ services:
         https://cdn.modrinth.com/data/l6YH9Als/versions/XGW2fviP/spark-1.10.53-fabric.jar
         https://cdn.modrinth.com/data/bfneejKo/versions/JxB3gBzc/syncmatica-1.20.1-0.3.11.jar
         https://cdn.modrinth.com/data/VX3TgwQh/versions/gPJoJ3mr/carpet-extra-1.20-1.4.115.jar
+        https://cdn.modrinth.com/data/OYR5DMCo/versions/KdQ0blAk/litemoretica-1.2.5%2Bmc1.20.1.jar
       RCON_CMDS_STARTUP: |
         execute in minecraft:the_nether run player HikakinGames spawn at -33 216 -17
         player MasuoGames spawn at -357 63.6 23
-        player ManatoGames spawn at -3 -16 -35
         player sakuramiko35 spawn at 31.4 164.0 115.6
         gamerule playersSleepingPercentage 10
         carpet accurateBlockPlacement true
