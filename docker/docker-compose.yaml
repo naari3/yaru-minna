@@ -70,6 +70,12 @@ services:
     volumes:
       - "./data:/data"
     restart: always
+  cloudflared:
+    image: cloudflare/cloudflared
+    command: tunnel run
+    restart: always
+    environment:
+      TUNNEL_TOKEN: your_token
 
 volumes:
   rcon:
