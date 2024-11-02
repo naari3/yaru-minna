@@ -6,7 +6,7 @@ services:
       DISCORD_BOT_TOKEN: your_token
   cloudflared:
     image: cloudflare/cloudflared
-    command: tunnel run --no-autoupdate --url mc:25565
+    command: tunnel run --url mc:25565
     restart: always
     environment:
       TUNNEL_TOKEN: your_token
