@@ -11,7 +11,7 @@ services:
       TYPE: "FABRIC"
       FABRIC_LOADER_VERSION: 0.16.7
       VERSION: "1.20.1"
-      MEMORY: "12G"
+      MEMORY: "14G"
       RCON_PASSWORD: minecraft
       VIEW_DISTANCE: "28"
       SIMULATION_DISTANCE: "28"
