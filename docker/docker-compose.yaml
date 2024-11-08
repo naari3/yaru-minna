@@ -28,6 +28,7 @@ services:
       RCON_CMDS_STARTUP: |
         gamerule playersSleepingPercentage 10
         carpet accurateBlockPlacement true
+      MOTD: "やるぞ"
     tty: true
     stdin_open: true
     dns:
