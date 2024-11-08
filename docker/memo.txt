@@ -1,0 +1,10 @@
+execute in minecraft:the_nether run player HikakinGames spawn at -33 216 -17
+player MasuoGames spawn at -357 63.6 23
+player sakuramiko35 spawn at 31.4 164.0 115.6
+gamerule playersSleepingPercentage 10
+carpet accurateBlockPlacement true
+player KazuChannel spawn at -1.3 79.0625 43.3 facing -20.1 24.5
+player KazuChannel use interval 4
+player tomo0723sw spawn at -123.5 191 197.6
+player Dream spawn at -1415 182 3875
+player masatogames spawn at 62 225 -228
