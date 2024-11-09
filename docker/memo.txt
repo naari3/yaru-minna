@@ -8,3 +8,4 @@ player KazuChannel use interval 4
 player tomo0723sw spawn at -123.5 191 197.6
 player Dream spawn at -1415 182 3875
 player masatogames spawn at 62 225 -228
+player popbob spawn at 2432 213 5227

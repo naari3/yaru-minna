@@ -25,6 +25,7 @@ services:
         https://cdn.modrinth.com/data/bfneejKo/versions/JxB3gBzc/syncmatica-1.20.1-0.3.11.jar
         https://cdn.modrinth.com/data/VX3TgwQh/versions/gPJoJ3mr/carpet-extra-1.20-1.4.115.jar
         https://cdn.modrinth.com/data/OYR5DMCo/versions/KdQ0blAk/litemoretica-1.2.5%2Bmc1.20.1.jar
+        https://cdn.modrinth.com/data/gvQqBUqZ/versions/ZSNsJrPI/lithium-fabric-mc1.20.1-0.11.2.jar
       RCON_CMDS_STARTUP: |
         gamerule playersSleepingPercentage 10
         carpet accurateBlockPlacement true
